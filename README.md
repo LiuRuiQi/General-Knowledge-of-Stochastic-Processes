@@ -7,7 +7,7 @@
 随机过程描述的是一组r.v.(random variable,随机变量)的性质，这些r.v.在同一个样本空间Ω中。
 ####相关知识
 1. X(ω,t)固定t，得到一维分布(单个r.v.)；固定ω，得到样本轨道(sample path)。
-2. r.v.之间的关系课上提到3种，相关(Correlation)，马尔科夫性(markov Property)，鞅(Martingale)。
+2. r.v.之间的关系课上提到3种，相关(Correlation)，马尔科夫性(Markov Property)，鞅(Martingale)。
 
 
 ##宽平稳(Wide Sense Stationary, w.s.s.)
