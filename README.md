@@ -42,6 +42,10 @@ S<sub>x</sub>(ω) = FT[ R<sub>x</sub>(τ) ] (数学化定义)，物理定义是�
 
 2. Φ<sub>x</sub>(ω) = FT [ f<sub>X</sub>(x) ]
 
+##母函数 （“矩母函数”）
+G<sub>x</sub>(z) = E(z<sup>x</sup>) = Σ<sub>k</sub> P(X = k) * z<sup>k</sup>
+定义类似z变换。研究Poisson过程时常用母函数做工具。
+
 ##高斯过程
 随机过程X(t), ∀n, ∀t1, t2, ..., tn, ( X(t1), X(t2),..., X(tn) ) ~ N. 即，任取n个时刻得到的随机变量符合n元联合Gauss分布
 ####相关知识
