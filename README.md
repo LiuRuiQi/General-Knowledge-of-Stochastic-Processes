@@ -59,7 +59,19 @@ S<sub>x</sub>(ω) = FT[ R<sub>x</sub>(τ) ] (数学化定义)，物理定义是�
 
 定义域与值域: N(t) ∈ N, t∈R, t≥0 (“计数过程”，取值只能是自然数)
 ####相关知识
-1. Poisson过程与Poisson分布的： P( N(t) = k) = [(λt)<sup>k</sup>/k!] * exp(-λt)
+1. Poisson过程与Poisson分布的： P( N(t) = k) = [(λt)<sup>k</sup>/k!] * exp(-λt), 满足Poisson分布的形式
+
+2. E[ N(t) ] = λt, Var[ N(t) ] =λt
+
+3. λ称为“强度”，单位时间内事件发生的平均次数
+
+4. Poisson过程的和仍为Poisson
+####泊淞过程的推广
+1. 非齐次Poisson （也叫“非平稳”）
+去掉了平稳增量的要求
+
+2. 复合Poisson  去掉了稀疏性的要求
+复合Poisson考察的是不同事件发生造成的影响不同，每次事件发生带来的影响不都记为1. 标准Possion的差是复合Poisson.
 
 
 ##主成份
