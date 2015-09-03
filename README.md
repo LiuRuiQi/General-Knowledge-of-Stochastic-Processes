@@ -83,6 +83,8 @@ G<sub>x</sub>(z) = E(z<sup>x</sup>) = Σ<sub>k</sub> P(X = k) * z<sup>k</sup>
 事件发生后的影响是关于t的函数，可以理解为标记事件发生时间的冲激串通过冲激响应为h的滤波器
 
 ##马尔可夫链 (Markov Chains)
+Markov性质： P(X<sub>m+1</sub>|X<sub>m</sub>, X<sub>m-1</sub>, ...,X<sub>1</sub>) = P(X<sub>m+1</sub>|X<sub>m</sub>)
+
 
 ##主成份
 
