@@ -95,15 +95,10 @@ Markov性质： P(X<sub>m+1</sub>|X<sub>m</sub>, X<sub>m-1</sub>, ...,X<sub>1</s
 3. 整体的状态转移矩阵P： P(m+n) = P(m)*P(n), P(n) = P<sup>n</sup>(1); n→∞时，P(n)进入稳态，退化成r.v.
 
 4. Markov Chain的状态的描述：
-
 - “可达”(Reachable)： i能到j
-
 - “相通”(Communicative)：i,j能互可达
-
 - “闭集”(Closed Set)： 转移行为一旦进入闭集就出不来了
-
 - “可约”(Reducible)： 某集合存在闭的真子集称为“可约”
-
 - 推论： Markov Chain不可约 <=> 所有状态都相通
 
 5. 常返态(Recurrent States)
