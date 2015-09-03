@@ -84,7 +84,10 @@ G<sub>x</sub>(z) = E(z<sup>x</sup>) = Σ<sub>k</sub> P(X = k) * z<sup>k</sup>
 
 ##马尔可夫链 (Markov Chains)
 Markov性质： P(X<sub>m+1</sub>|X<sub>m</sub>, X<sub>m-1</sub>, ...,X<sub>1</sub>) = P(X<sub>m+1</sub>|X<sub>m</sub>)
-
+“抓住现在”，并且知道了“现在”，过去与未来独立： P(C|BA) = P(C|B) <=> P(CA|B) = P(C|B) * P(A|B)  (记A为过去，B为现在，C为未来)
+####相关知识
+1. 转移概率 P<sub>ij</sub>(n,m) = P(X<sub>m</sub> = x<sub>j</sub>|X<sub>n</sub> = x<sub>i</sub>)
+平稳性：
 
 ##主成份
 
