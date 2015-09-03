@@ -27,7 +27,7 @@
 
 
 ##功率谱(Power Spectral Density, PSD)
-S<sub>x</sub>(ω) = FT[ R<sub>x</sub>(τ) ] (数学化定义)，物理定义是随机过程傅立叶变换在周期上的积分的平方再除以周期T。
+S<sub>x</sub>(ω) = FT[ R<sub>x</sub>(τ) ] （数学化定义），物理定义是随机过程傅立叶变换在周期上的积分的平方再除以周期T。
 ####相关知识
 1. 维纳钦欣关系(Wiener-Khinchine Relation)：PSD的数学化定义与物理化定义等价
 
