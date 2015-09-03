@@ -90,7 +90,6 @@ Markov性质： P(X<sub>m+1</sub>|X<sub>m</sub>, X<sub>m-1</sub>, ...,X<sub>1</s
 1. 转移概率 P<sub>ij</sub>(n,m) = P(X<sub>m</sub> = x<sub>j</sub>|X<sub>n</sub> = x<sub>i</sub>)
 
 - 平稳性（“齐次性”）： P<sub>ij</sub>(n,m) = P<sub>ij</sub>(n-m)   (即，重要的是状态转移间的步数)
-
 2. C-K 方程 (Chapman-Kolmogrov Equation)  （数路径的方法，具体形式不给出）
 
 3. 整体的状态转移矩阵P： P(m+n) = P(m)*P(n), P(n) = P<sup>n</sup>(1); n→∞时，P(n)进入稳态，退化成r.v.
