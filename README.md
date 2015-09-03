@@ -26,12 +26,15 @@
 ##功率谱(Power Spectral Density, PSD)
 Sx(ω) = FT[ Rx(τ) ] (数学化定义)，物理定义是随机过程傅立叶变换在周期上的积分的平方再除以周期T。
 ###相关知识
-1. 维纳钦欣关系(Wiener-Khinchine Relation)：PSD的数学化定义与物理化定义等价。
+1. 维纳钦欣关系(Wiener-Khinchine Relation)：PSD的数学化定义与物理化定义等价
 
 2. PSD是功率P关于频率ω的函数，所以量纲是焦耳（J）
 
+3. 功率谱密度是相关函数的傅立叶变换， Sx(ω) = FT[ Rx(τ) ]
+
 ##高斯过程
 随机过程X(t), ∀n, ∀t1, t2, ..., tn, ( X(t1), X(t2),..., X(tn) ) ~ N. 即，任取n个时刻得到的随机变量符合n元联合Gauss分布
+###相关知识
 
 ##泊淞过程
 
