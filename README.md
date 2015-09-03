@@ -44,6 +44,7 @@ S<sub>x</sub>(ω) = FT[ R<sub>x</sub>(τ) ] (数学化定义)，物理定义是�
 
 ##母函数 （“矩母函数”）
 G<sub>x</sub>(z) = E(z<sup>x</sup>) = Σ<sub>k</sub> P(X = k) * z<sup>k</sup>
+
 定义类似z变换。研究Poisson过程时常用母函数做工具。
 
 ##高斯过程
@@ -70,6 +71,7 @@ G<sub>x</sub>(z) = E(z<sup>x</sup>) = Σ<sub>k</sub> P(X = k) * z<sup>k</sup>
 3. λ称为“强度”，单位时间内事件发生的平均次数
 
 4. Poisson过程的和仍为Poisson
+
 ####泊淞过程的推广
 1. 非齐次Poisson （也叫“非平稳”）
 去掉了平稳增量的要求
