@@ -27,13 +27,13 @@
 
 
 ##功率谱(Power Spectral Density, PSD)
-S<sub>x</sub>(ω) = FT[ R<sub>x</sub>(τ) ] （数学化定义），物理定义是随机过程傅立叶变换在周期上的积分的平方再除以周期T。
+S<sub>X</sub>(ω) = FT[ R<sub>x</sub>(τ) ] （数学化定义），物理定义是随机过程傅立叶变换在周期上的积分的平方再除以周期T。
 ####相关知识
 1. 维纳钦欣关系(Wiener-Khinchine Relation)：PSD的数学化定义与物理化定义等价
 
 2. PSD是功率P关于频率ω的函数，所以量纲是焦耳(J)
 
-3. 功率谱密度是相关函数的傅立叶变换， S<sub>x</sub>(ω) = FT[ R<sub>x</sub>(τ) ]
+3. 功率谱密度是相关函数的傅立叶变换， S<sub>X</sub>(ω) = FT[ R<sub>x</sub>(τ) ]
 
 ##特征函数
 Φ<sub>x</sub>(ω) = E [ exp(j  ω<sup>T</sup>  X) ]
@@ -104,7 +104,7 @@ Markov性质： P(X<sub>m+1</sub>|X<sub>m</sub>, X<sub>m-1</sub>, ...,X<sub>1</s
 5. 常返态(Recurrent States) ： i∈S, Σ<sub>n</sub>f<sub>ii</sub>(n) = 1, 则称i是常返态。有关常返的一些性质：
  - 相通的状态常返性一致
  - 不可约的有限状态集合中所有状态都常返
- - Σ<sub>k=0</sub><sup>∞</sup>P<sub>ii</sub>(k) = ∞
+ - Σ<sub>k=0</sub><sup>∞</sup> P<sub>ii</sub>(k) = ∞
  - ∀不常返的j, ∀i, P<sub>ij/sub>(∞) = 0
  - 常返态的 EN = ∞, 返回次数的期望为∞
  - i常返，则从i无穷多次到i的概率为1
