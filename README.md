@@ -88,18 +88,18 @@ Markov性质： P(X<sub>m+1</sub>|X<sub>m</sub>, X<sub>m-1</sub>, ...,X<sub>1</s
 “抓住现在”，并且知道了“现在”，过去与未来独立： P(C|BA) = P(C|B) <=> P(CA|B) = P(C|B) * P(A|B)  (记A为过去，B为现在，C为未来)
 ####相关知识
 1. 转移概率 P<sub>ij</sub>(n,m) = P(X<sub>m</sub> = x<sub>j</sub>|X<sub>n</sub> = x<sub>i</sub>)
-+ 平稳性（“齐次性”）： P<sub>ij</sub>(n,m) = P<sub>ij</sub>(n-m)   (即，重要的是状态转移间的步数)
+ + 平稳性（“齐次性”）： P<sub>ij</sub>(n,m) = P<sub>ij</sub>(n-m)   (即，重要的是状态转移间的步数)
 
 2. C-K 方程 (Chapman-Kolmogrov Equation)  （数路径的方法，具体形式不给出）
 
 3. 整体的状态转移矩阵P： P(m+n) = P(m)*P(n), P(n) = P<sup>n</sup>(1); n→∞时，P(n)进入稳态，退化成r.v.
 
 4. Markov Chain的状态的描述：
-+ “可达”(Reachable)： i能到j
-+ “相通”(Communicative)：i,j能互可达
-+ “闭集”(Closed Set)： 转移行为一旦进入闭集就出不来了
-+ “可约”(Reducible)： 某集合存在闭的真子集称为“可约”
-+ 推论： Markov Chain不可约 <=> 所有状态都相通
+ + “可达”(Reachable)： i能到j
+ + “相通”(Communicative)：i,j能互可达
+ + “闭集”(Closed Set)： 转移行为一旦进入闭集就出不来了
+ + “可约”(Reducible)： 某集合存在闭的真子集称为“可约”
+ + 推论： Markov Chain不可约 <=> 所有状态都相通
 
 5. 常返态(Recurrent States)
 i∈S, Σ<sub>n</sub>f<sub>ii</sub>(n) = 1, 则称i是常返态。有关常返的一些性质：
@@ -111,7 +111,7 @@ i∈S, Σ<sub>n</sub>f<sub>ii</sub>(n) = 1, 则称i是常返态。有关常返�
 6) i常返，则从i无穷多次到i的概率为1
 
 6. 周期性
-周期：从i出发，再回到i所需的步数集合的最大公约数。如，过4，6，8，10，...步都能回来，则周期为2
+周期：从i出发，再回到i所需的步数集合的最大公约数。如，过4，6，8，10，...步都能回来，则周期为2。不可约+非周期 <=> 极限分布存在。
 
 ##主成份
 
