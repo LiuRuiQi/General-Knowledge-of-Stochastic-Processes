@@ -6,7 +6,7 @@
 随机过程X(ω,t)是一个二元函数，ω∈Ω(样本空间)，t∈R<sub>+</sub> .t可以指时间(一维)也可以指空间(n维)。
 随机过程描述的是一组r.v.(random variable,随机变量)的性质，这些r.v.在同一个样本空间Ω中。
 ####相关知识
-1. X(ω,t)固定t，得到一维分布(单个r.v.)；固定ω，得到样本轨道(sample path)。
+1. X(ω,t)  固定t，得到一维分布(单个r.v.)；固定ω，得到样本轨道(sample path)。
 2. r.v.之间的关系课上提到3种，相关(Correlation)，马尔科夫性(Markov Property)，鞅(Martingale)。
 
 
