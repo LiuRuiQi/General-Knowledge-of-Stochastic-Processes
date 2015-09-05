@@ -39,7 +39,8 @@ S<sub>X</sub>(ω) = FT[ R<sub>x</sub>(τ) ] （数学化定义），物理定义
 3. 功率谱密度是相关函数的傅立叶变换， S<sub>X</sub>(ω) = FT[ R<sub>x</sub>(τ) ]
 
 ##特征函数
-Φ<sub>x</sub>(ω) = E [ exp(j  ω<sup>T</sup>  X) ]
+ - Φ<sub>X</sub>(ω) = E [ exp(j  ω<sup>T</sup>  X) ]
+ - Φ<sub>X+Y</sub>(ω) = Φ<sub>X</sub>(ω) * Φ<sub>Y</sub>(ω)
 ####相关知识
 1. 对于多维Gauss过程，特征函数尤为重要，因为联合分布式子中有矩阵求逆，计算复杂度高，但特征函数计算复杂度低。
 
