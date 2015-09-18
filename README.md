@@ -75,7 +75,7 @@ G<sub>x</sub>(z) = E(z<sup>x</sup>) = Σ<sub>k</sub> P(X = k) * z<sup>k</sup>
 
 3. λ称为“强度”，单位时间内事件发生的平均次数
 
-4. Poisson过程的和仍为Poisson
+4. Poisson过程的和仍为Poisson，强度为之前两个Poisson强度之和
 
 ####泊淞过程的推广
 1. 非齐次Poisson (也叫“非平稳”)
