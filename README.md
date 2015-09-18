@@ -1,4 +1,4 @@
-# General-Knowledge-of-Stochastic-Processes
+# General Knowledge of Stochastic Processes
 
 以下所有内容整理自随即过程与概率论笔记。本文旨在帮助准备电子系推研面试的同学大体复习随机过程的最基本常识，面试中张颢老师的难题深不可测，本文不予关注。
 
